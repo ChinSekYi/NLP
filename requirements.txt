@@ -2,6 +2,7 @@ black
 isort
 pylint
 pytest
+pytest-cov
 nbval
 ipython
 requests

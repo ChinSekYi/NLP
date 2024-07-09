@@ -1,5 +1,6 @@
-from textblob import TextBlob
 import wikipedia
+from textblob import TextBlob
+
 
 def search_wikipedia(name):
     """Search wikipedia"""

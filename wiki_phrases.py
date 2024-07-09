@@ -1,4 +1,5 @@
 import fire
+
 from nlplogic.corenlp import get_phrases
 
 if __name__ == "__main__":

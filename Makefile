@@ -4,13 +4,13 @@ install:
 	python -m textblob.download_corpora
 
 test:
-	#python -m pytest -vv --cov=hello --cov=hellocli test_*.py
+	python -m pytest -vv --cov=wiki_phrases --cov=nlplogic test_*.py
 
 format:
-	isort *.py
+	isort *.py nlplogic
 	black *.py
 
 lint:
-	pylint --disable=R,C  *.py
+	pylint --disable=R,C  *.py nlp/*.py
 
 all: install format lint test
