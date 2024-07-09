@@ -1,0 +1,9 @@
+black
+isort
+pylint
+pytest
+nbval
+ipython
+requests
+textblob
+wikipedia
