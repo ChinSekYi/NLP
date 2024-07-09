@@ -2,5 +2,5 @@
 # Getting phrases from WikiPage using NLP
 
 # How to use the wiki_phrases tool using CLI
-run `python wiki_phrases.py --name "Golden State Warriors"`
+run `python wiki_phrases.py --name "Golden State Warriors"`.  
 Replace "Golden State Warriors" with a Wiki page you desire.
