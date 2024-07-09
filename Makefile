@@ -11,6 +11,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C  *.py nlp/*.py
+	pylint --disable=R,C  *.py nlplogic/*.py
 
 all: install format lint test
