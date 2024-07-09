@@ -2,5 +2,8 @@
 # Getting phrases from WikiPage using NLP
 
 # How to use the wiki_phrases tool using CLI
-run `python wiki_phrases.py --name "Golden State Warriors"`.  
-Replace "Golden State Warriors" with a Wiki page you desire.
+1. run `python wiki_phrases.py --name "Golden State Warriors"`.  
+2. Replace "Golden State Warriors" with a Wiki page you desire.
+
+## Resources:
+- <a href="https://textblob.readthedocs.io/en/dev/">TextBlob documentation</a>
